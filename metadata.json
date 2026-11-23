@@ -1,0 +1,6 @@
+{
+  "name": "Trend Affiliate Radar",
+  "description": "Nền tảng AI khám phá sản phẩm xu hướng, nghiên cứu đa nguồn có bằng chứng và vận hành Affiliate cho thị trường Việt Nam (Shopee, TikTok Shop, Lazada).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

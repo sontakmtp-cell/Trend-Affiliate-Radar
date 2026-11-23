@@ -1,0 +1,31 @@
+# TrendRadar Collector Configuration (v6.12.0)
+# Chỉ dùng để thu thập tín hiệu nền — AI Analysis & Push nội bộ đã tắt
+collector:
+  interval_minutes: 45
+  request_timeout_sec: 12
+  ai_analysis_enabled: false
+  push_notification_enabled: false
+  newsnow_api_url: "https://newsnow.busiyi.world/api/s"
+
+platforms:
+  - id: "douyin"
+    name: "Douyin Hotlist"
+    enabled: true
+  - id: "weibo"
+    name: "Weibo Hot Search"
+    enabled: true
+  - id: "bilibili-hot-search"
+    name: "Bilibili Hot"
+    enabled: true
+  - id: "zhihu"
+    name: "Zhihu Hot"
+    enabled: true
+  - id: "hackernews"
+    name: "Hacker News (Keyless)"
+    enabled: true
+  - id: "reddit-gadgets"
+    name: "Reddit r/gadgets (Keyless)"
+    enabled: true
+
+output:
+  sqlite_read_only_mount: "/output:ro"
